@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0005FC26"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.8"
+        android:gravity="bottom|right"
+        android:text="0"
+        android:textSize="50sp" />
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+
+        <Button
+            android:id="@+id/button_ac"
+            android:text="AC"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/button_zhengfu"
+
+            android:text="+/-" />
+
+
+        <Button
+            android:id="@+id/button_chu"
+
+            android:text="/" />
+
+
+        <Button
+        android:id="@+id/button_bai"
+
+        android:text="->" />
+
+
+        <Button
+            android:id="@+id/button_7"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button_8"
+
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button_9"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button_cheng"
+            android:text="*" />
+
+
+        <Button
+            android:id="@+id/button_4"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button_5"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button_6"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button_jian"
+            android:text="-" />
+
+
+        <Button
+            android:id="@+id/button_1"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:text="+" />
+
+
+        <Button
+            android:id="@+id/button_0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/button_dian"
+            android:text="." />
+
+        <Button
+            android:id="@+id/button_eq"
+            android:text="=" />
+        <Button
+            android:id="@+id/button_left"
+            android:text="("/>
+        <Button
+            android:id="@+id/button_right"
+            android:text=")"/>
+    </GridLayout>
+</LinearLayout>
